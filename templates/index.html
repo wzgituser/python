@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pythonPro</title>
+    <link
+      href="{{url_for('static', filename='styles/styles.css')}}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Python app</h1>
+    <form action="/weather">
+      <input
+        type="text"
+        name="somedata"
+        id="id1"
+        placeholder="type some data"
+      />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
